@@ -24,7 +24,7 @@ public class BulletCollision : MonoBehaviour
     {
         if (col.gameObject.tag.Equals("Bullet"))
         {
-            Poof.Play();
+            //Poof.Play();
             Destroy(col.gameObject);
             Destroy(gameObject);
             
