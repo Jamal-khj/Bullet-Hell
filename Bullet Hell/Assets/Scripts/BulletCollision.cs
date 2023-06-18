@@ -29,6 +29,11 @@ public class BulletCollision : MonoBehaviour
             Destroy(gameObject);
             
         }
+
+        else if (col.gameObject.tag.Equals("Player"))
+        {
+           Destroy(gameObject);
+        }
     }
 
     

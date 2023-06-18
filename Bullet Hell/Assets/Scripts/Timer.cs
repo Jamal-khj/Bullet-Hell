@@ -37,7 +37,7 @@ public class Timer : MonoBehaviour
             SetTimerText();
             timerText.color = Color.red;
             enabled = false;
-            Invoke("LoadScene", 0.0001f);
+            Invoke("LoadScene", 1f);
         }
 
         SetTimerText();
