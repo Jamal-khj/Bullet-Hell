@@ -269,7 +269,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5292648633444805174, guid: f2e6b5839f3c9284499b746468a37800, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.54
+      value: 0.58
       objectReference: {fileID: 0}
     - target: {fileID: 6416078909131914980, guid: f2e6b5839f3c9284499b746468a37800, type: 3}
       propertyPath: enemy
@@ -282,7 +282,7 @@ PrefabInstance:
     - target: {fileID: 6416078909131914980, guid: f2e6b5839f3c9284499b746468a37800, type: 3}
       propertyPath: bulletPos
       value: 
-      objectReference: {fileID: 3623690394123293387, guid: 0ddb662fa501b264989b9f3af57d81e1, type: 3}
+      objectReference: {fileID: 1517646073}
     - target: {fileID: 8349358849770720053, guid: f2e6b5839f3c9284499b746468a37800, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -410,6 +410,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!4 &1517646073 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5292648633444805174, guid: f2e6b5839f3c9284499b746468a37800, type: 3}
+  m_PrefabInstance: {fileID: 705153956}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2103357072 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8349358849770720053, guid: f2e6b5839f3c9284499b746468a37800, type: 3}
