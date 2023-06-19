@@ -9,6 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: f50fd7d984ba3aa40b64345fbd0c3bc2
+  - enabled: 1
+    path: Assets/Scenes/Jamal.unity
+    guid: 2dae5be0aa21c8d47ac00e80e893c83b
+  - enabled: 1
+    path: Assets/Scenes/Level.unity
+    guid: 22e07d27b96bd7847aef31bd2ff91cc2
+  - enabled: 1
+    path: Assets/Scenes/Aly.unity
+    guid: 5cc04f49a63e8bc4992c196f616d7d8e
+  - enabled: 1
+    path: Assets/Scenes/Win Screen.unity
+    guid: 87d7e898e7953924bad3d55e1467bf85
+  - enabled: 1
     path: Assets/Scenes/Dead scene.unity
     guid: 28abaa9bf61cfb34a9565dc8ff50bbfb
   m_configObjects: {}
