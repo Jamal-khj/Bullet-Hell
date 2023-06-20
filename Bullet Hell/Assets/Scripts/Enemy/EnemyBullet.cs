@@ -7,6 +7,7 @@ public class EnemyBullet : MonoBehaviour
 {
     public GameObject enemBullet;
     public Transform bulletPos;
+    public GameObject[] enemyPos;
 
     float timer;
 
@@ -19,12 +20,16 @@ public class EnemyBullet : MonoBehaviour
         if (timer > 3)
         {
             timer = 0;
-            Shoot();
+            for (int i = 0; i < 3; i++)
+            {
+                int random = Random.Range(0, enemyPos.Length);
+                Shoot(random);
+            }
         }
     }
 
-    public void Shoot()
+    public void Shoot(int index)
     {
-        Instantiate(enemBullet, bulletPos.position, Quaternion.identity);
+        Instantiate(enemBullet, enemyPos[index].transform.position, Quaternion.identity);
     }
 }
