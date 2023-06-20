@@ -13,8 +13,8 @@ EditorBuildSettings:
     guid: f50fd7d984ba3aa40b64345fbd0c3bc2
   - enabled: 1
     path: Assets/Scenes/Jamal.unity
-    guid: 2dae5be0aa21c8d47ac00e80e893c83b
-  - enabled: 1
+    guid: 9e2be32b5e57c194db84c310ac2cde3d
+  - enabled: 0
     path: Assets/Scenes/Level.unity
     guid: 22e07d27b96bd7847aef31bd2ff91cc2
   - enabled: 1
