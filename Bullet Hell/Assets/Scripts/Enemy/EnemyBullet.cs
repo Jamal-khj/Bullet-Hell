@@ -17,7 +17,7 @@ public class EnemyBullet : MonoBehaviour
         ///the shooting function is executed after a set time
         timer += Time.deltaTime;
 
-        if (timer > 3)
+        if (timer > 2)
         {
             timer = 0;
             for (int i = 0; i < 3; i++)

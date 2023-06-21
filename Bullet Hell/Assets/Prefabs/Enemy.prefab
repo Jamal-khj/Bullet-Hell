@@ -100,6 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemBullet: {fileID: 2629870905354295453, guid: 0ddb662fa501b264989b9f3af57d81e1, type: 3}
   bulletPos: {fileID: 5292648633444805174}
+  enemyPos: []
 --- !u!1001 &4194657297043523460
 PrefabInstance:
   m_ObjectHideFlags: 0
