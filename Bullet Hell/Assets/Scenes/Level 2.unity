@@ -767,10 +767,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19d11ada31212eb49bc1f279c3da6f2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  iLevelToLoad: 3
+  iLevelToLoad: 4
   useIntegerToLoadLevel: 1
   timerText: {fileID: 1768171556}
-  currentTime: 90
+  currentTime: 2
   countDown: 1
   hasLimit: 1
   timerLimit: 0
@@ -801,7 +801,7 @@ GameObject:
   - component: {fileID: 484937504}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1348,7 +1348,7 @@ GameObject:
   - component: {fileID: 726724700}
   m_Layer: 0
   m_Name: Square (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2468,7 +2468,7 @@ GameObject:
   - component: {fileID: 1237855622}
   m_Layer: 0
   m_Name: Square (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2943,7 +2943,7 @@ GameObject:
   - component: {fileID: 1638894423}
   m_Layer: 0
   m_Name: Square (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
