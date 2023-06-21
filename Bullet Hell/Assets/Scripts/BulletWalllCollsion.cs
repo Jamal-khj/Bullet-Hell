@@ -13,6 +13,13 @@ public class BulletWalllCollsion : MonoBehaviour
             
         }
 
+        else if (col.gameObject.tag.Equals("Player"))
+        {
+            
+            Destroy(gameObject);
+            
+        }
+
         
 
     }
