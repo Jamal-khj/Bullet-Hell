@@ -345,7 +345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3696021931220375748, guid: cbe81655fcfaed041bdd2154ae4b9d3b, type: 3}
       propertyPath: timerBetweenFiring
-      value: 0.1
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: 9170952697694121574, guid: cbe81655fcfaed041bdd2154ae4b9d3b, type: 3}
       propertyPath: m_RootOrder
@@ -3193,10 +3193,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19d11ada31212eb49bc1f279c3da6f2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  iLevelToLoad: 2
+  iLevelToLoad: 1
   useIntegerToLoadLevel: 1
   timerText: {fileID: 897963535}
-  currentTime: 2
+  currentTime: 60
   countDown: 1
   hasLimit: 1
   timerLimit: 0
