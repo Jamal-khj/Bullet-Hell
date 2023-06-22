@@ -802,7 +802,7 @@ MonoBehaviour:
   iLevelToLoad: 4
   useIntegerToLoadLevel: 1
   timerText: {fileID: 1768171556}
-  currentTime: 90
+  currentTime: 60
   countDown: 1
   hasLimit: 1
   timerLimit: 0
