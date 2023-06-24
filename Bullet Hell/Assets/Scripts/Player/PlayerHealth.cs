@@ -3,11 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-/// <summary>
-/// Andrew Roberts' Script
-/// </summary>
-/// 
-
 public class PlayerHealth : MonoBehaviour
 {
     public int health;
