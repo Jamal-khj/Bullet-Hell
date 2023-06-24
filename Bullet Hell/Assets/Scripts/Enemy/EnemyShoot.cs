@@ -2,6 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Andrew Roberts' Script
+/// </summary>
+/// 
+
 public class EnemyShoot : MonoBehaviour
 {
     private GameObject player;

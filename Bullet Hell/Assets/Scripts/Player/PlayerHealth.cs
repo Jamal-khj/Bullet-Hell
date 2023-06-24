@@ -1,6 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
+/// <summary>
+/// Andrew Roberts' Script
+/// </summary>
+/// 
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -17,6 +23,7 @@ public class PlayerHealth : MonoBehaviour
         {
             Destroy(gameObject);
             Debug.Log("Game Over");
+            SceneManager.LoadScene("Dead scene");
         }
     }
 }

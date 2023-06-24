@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 
+/// <summary>
+/// Andrew Roberts' Script
+/// </summary>
+/// 
+
 public class EnemyBullet : MonoBehaviour
 {
     public GameObject enemBullet;
